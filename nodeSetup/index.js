@@ -1,10 +1,5 @@
-const _ = require("lodash");
 
-console.log(_.last([1,2,4]));
-    
+const people = require('./people');
+const _= require('lodash');
 
-
-setTimeout(() => {
-    console.log("Hello Node");
-    
-}, 3000);
+console.log(_.last(people));
